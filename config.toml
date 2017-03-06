@@ -1,0 +1,53 @@
+baseurl = "https://sjfox.githu.io/"
+languageCode = "en-us"
+title = "Fox and the flu"
+theme = "blackburn"
+description = "A personal website and rstats blog"
+publishDir = "../sjfox.github.io"
+author = "Spencer J Fox"
+copyright = "&copy; 2016. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "A personal website and rstats blog"
+  brand = "Blackburn"
+  googleAnalytics = "UA-74135701-2"
+  # disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter = "foxandtheflu"
+  github = "sjfox"
+  linkedin = "spencer-fox-a474a547"
