@@ -5,7 +5,7 @@ sidemenu = "true"
 description = "Spencer J Fox"
 +++
 
-<img style="float: right;" src="/images/Fox_Spencer_01B&W.png" style="width: 100px;">
+<img src="/images/Fox_Spencer_01B&W.png" style="float: middle;" height="400" width="400">
 
 ### Contact Me
 I can be reached via [Email](spncrfx@gmail.com) or [twitter](http://twitter.com/foxandtheflu)
